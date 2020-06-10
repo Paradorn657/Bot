@@ -4,17 +4,17 @@ import TOBY
 from TOBY.lib.curve.ttypes import *
 from datetime import datetime
 import time,random,sys,json,codecs,threading,glob
-# "49293@brr.ac.th","0880461478.boss"
+# "49293@brr.ac.th","0880461478.boss","d649610c50635ee8ec02cd0ef7fed3468b76d06b7749fa18433e350b70a3a0ee"
 cl = TOBY.LINE()
-cl.login("49293@brr.ac.th","0880461478.boss","d649610c50635ee8ec02cd0ef7fed3468b76d06b7749fa18433e350b70a3a0ee")
+cl.login(qr=True)
 cl.loginResult()
 
 ki = TOBY.LINE()
-ki.login("49293@brr.ac.th","0880461478.boss","d649610c50635ee8ec02cd0ef7fed3468b76d06b7749fa18433e350b70a3a0ee")
+ki.login(qr=True)
 ki.loginResult()
 
 ki2 = TOBY.LINE()
-ki2.login("49293@brr.ac.th","0880461478.boss","d649610c50635ee8ec02cd0ef7fed3468b76d06b7749fa18433e350b70a3a0ee")
+ki2.login(qr=True)
 ki2.loginResult()
 
 print u"login success"
