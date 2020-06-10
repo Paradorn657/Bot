@@ -55,7 +55,7 @@ class LINE:
     self.refresh_token = self.channel.refresh_token
     self._headers = {
             APP_TYPE    = ApplicationType.IOS
-            APP_NAME    = 'IOSIPAD\t7.14.0\tiPhone OS\t10.12.0'
+            APP_NAME    = "IOS\t9.18.1\tiPhone X\t12.4.1"
                }
 
 
